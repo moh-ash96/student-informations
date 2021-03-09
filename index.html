@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student info</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>ASAC</h1>
+        <nav>
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="addInfo">
+            <form action="" id="infoForm">
+                <label for="eMail" id="emailL">Student Email</label>
+                <input type="email" name="eMail" id="eMail">
+                <br>
+                <label for="mobile" id="mobileL">Student Mobile Number</label>
+                <input type="number" name="mobile" id="mobile">
+                <br>
+                <label for="fees" id="feesL">Tuition</label>
+                <select name="fees" id="fees">
+                    <option value="100">100 JD</option>
+                    <option value="500">500 JD</option>
+                    <option value="1000">1000 JD</option>
+                </select>
+                <br>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+
+        <div id="table">
+            <table id="addedTable">
+                
+            </table>
+
+        </div>
+    </main>
+
+    <footer>
+        &copy; All rights reserved ASAC 2021
+    </footer>
+    <script src="app.js"></script>
+    
+</body>
+</html>

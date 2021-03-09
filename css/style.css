@@ -1,0 +1,93 @@
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family:'Roboto', sans-serif;
+}
+
+body{
+    background-image: url("/assets/bg.jpg");
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-size: cover;
+}
+
+header{
+    background: black;
+    opacity: 57%;
+    text-align: center;
+    color: #eee;
+}
+a{
+    text-decoration: underline;
+    color: #eee;
+    padding-left: 27px;
+    font-size: 28px;
+}
+#nav{
+    display: inline-block;
+    position: relative;
+    left: 730px;
+    padding-bottom: 60px;
+    
+}
+h1{
+    font-size: 45px;
+    padding-top: 67px;
+}
+li{
+    display: inline-block;
+}
+
+
+
+#infoForm{
+
+    
+    margin-left: 45px;
+    margin-top: 27px;
+    /* width: 497px; */
+    font-size: 25px;
+    color: #eee;
+}
+#addInfo{
+
+    background-color: black;
+    opacity: 57%;
+    float: left;
+    margin-top: 50px;
+    height: 200px;
+    margin-left: 60px;
+}
+#emailL{
+    padding-right: 155px;
+}
+#mobileL{
+    padding-right: 47px;
+}
+#fees{
+    width: 164.8px;
+    height: 20.93px;
+    font-size: 16px;
+}
+#feesL{
+    padding-right: 233px;
+}
+table, th, td{
+    border: solid;
+    color: #eee;
+
+}
+table{
+    float: right;
+    width: 1000px;
+    background-color: black;
+    opacity: 57%;
+    margin-top: 50px;
+    margin-right: 60px;
+    height: 324px;
+    text-align: center;
+}
+footer{
+    clear: both;
+}
+
